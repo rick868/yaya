@@ -74,6 +74,7 @@ body {
   width: 23rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   cursor: pointer;
+  position: relative;
 }
 .listing-item:hover {
   transform: scale(1.2rem);
@@ -87,6 +88,7 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
+  position: relative;
 }
 .listing-details {
   padding: 1rem;
@@ -110,28 +112,25 @@ body {
   color: #da2828;
   margin-bottom: 0.5rem;
 }
-.listing-image listing-rating{
-  top: 0.5rem;
+.listing-rating{
   right: 0.5rem;
   position: absolute;
-  color: #f39c12;
+  color: #f1990b;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
 }
 .listing-discount {
+  top: 0.5rem;
+  right: 0.5rem;
   font-size: 1.2rem;
-  color: #abc228;
+  color: #e60e0e;
   margin-top: 0.5rem;
   display: flex;
   align-items: center;
+  position: absolute;
 }
-.discount{
-  font-size: 1.2rem;
-  color: #abc228;
-  margin-left: 0.5rem;
-  font-weight: bold;
-}
+
 .footer-text {
   text-align: center;
   padding: 1rem;
