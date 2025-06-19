@@ -20,8 +20,8 @@ function Header() {
           <li><a href="#" className="nav-link">Sweets</a></li>
         </ul>
       </div>
-      <div className="click-btn">
-         <button className="submit-btn">  View All </button>
+      <div>
+         <button className="click-btn">  View All </button>
       </div>
     </div>
   )
