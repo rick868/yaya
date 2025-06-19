@@ -41,7 +41,7 @@ body {
   transition: color 0.2s ease;
 }
 .nav-link:hover {
-  text-decoration: color(red);
+ color: red;
 }
 
 .click-btn{
@@ -60,11 +60,13 @@ body {
 }
 
 .listing-container{
+  padding: 20px;
   display: flex;
   margin: 2.5rem auto;
   justify-content: center;
   gap: 2.5rem;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .listing-item{
@@ -83,6 +85,7 @@ body {
 }
 .listing-image {  
   height: 20rem;
+  position: relative;
 }
 .listing-image img {
   width: 100%;
@@ -114,22 +117,23 @@ body {
   margin-bottom: 0.5rem;
 }
 .listing-rating{
+  top: 0.5rem;
   right: 0.5rem;
   position: absolute;
-  color: #f1990b;
+  color: #e04b06;
   font-size: 1.2rem;
+  margin-top: 280px;
   display: flex;
   align-items: center;
 }
 .listing-discount {
   top: 0.5rem;
-  right: 0.5rem;
+  left: 0.5rem;
+  position: absolute;
   font-size: 1.2rem;
-  color: #e60e0e;
-  margin-top: 0.5rem;
+  color: #e21818;
   display: flex;
   align-items: center;
-  position: absolute;
 }
 
 .footer-text {

@@ -8,9 +8,10 @@ function ListingItem({ image, title, description, price, rating, discount }) {
                 <img src={image} />
                 <div className="listing-rating">
                     <FcRating />
-                    <span>{rating}</span>
+                   {rating > 0 && <span>{rating}</span>} 
+                     {rating === 0 && <span>Not Rated</span>}
                 </div>
-                <div className="listing-dicount">
+                <div className="listing-discount">
                     <MdOutlineDiscount />
                     <span>{discount}</span>
                 </div>
